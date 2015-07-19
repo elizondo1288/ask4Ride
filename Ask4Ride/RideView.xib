@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RideCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="341" height="192"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="teban1288" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sgx-D7-zMW">
+                    <rect key="frame" x="8" y="8" width="255" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="v8m-Kj-rlI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AmericanTypewriter-Condensed" family="American Typewriter" pointSize="24"/>
+                    <color key="textColor" red="0.1098039299" green="0.30980393290000002" blue="0.5411764979" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Need a ride to San Pedro" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dso-Rn-3CK">
+                    <rect key="frame" x="8" y="85" width="325" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="TIc-hE-WNr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AmericanTypewriter-Condensed" family="American Typewriter" pointSize="20"/>
+                    <color key="textColor" red="0.1098039299" green="0.30980393290000002" blue="0.5411764979" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Offers: drinks, 1 free ride on monday" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qfl-He-P27">
+                    <rect key="frame" x="8" y="151" width="325" height="27"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="27" id="41E-VK-O3O"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AmericanTypewriter-Condensed" family="American Typewriter" pointSize="20"/>
+                    <color key="textColor" red="0.1098039299" green="0.30980393290000002" blue="0.5411764979" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueCircle" translatesAutoresizingMaskIntoConstraints="NO" id="KvK-jV-cji">
+                    <rect key="frame" x="283" y="8" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="AhY-E4-g98"/>
+                        <constraint firstAttribute="width" constant="50" id="mmG-DQ-8j3"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Qfl-He-P27" secondAttribute="bottom" constant="14" id="459-IA-Yxj"/>
+                <constraint firstItem="Sgx-D7-zMW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="4oC-Xm-zZe"/>
+                <constraint firstAttribute="trailing" secondItem="KvK-jV-cji" secondAttribute="trailing" constant="8" id="FkH-na-CFD"/>
+                <constraint firstAttribute="trailing" secondItem="Qfl-He-P27" secondAttribute="trailing" constant="8" id="IBe-I3-Bc4"/>
+                <constraint firstItem="Qfl-He-P27" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="JbP-1N-fUF"/>
+                <constraint firstItem="dso-Rn-3CK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Occ-d9-O2w"/>
+                <constraint firstItem="Sgx-D7-zMW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="TGw-g8-cCy"/>
+                <constraint firstItem="dso-Rn-3CK" firstAttribute="top" secondItem="KvK-jV-cji" secondAttribute="bottom" constant="27" id="aft-av-Kbs"/>
+                <constraint firstAttribute="trailing" secondItem="dso-Rn-3CK" secondAttribute="trailing" constant="8" id="dcP-vt-Dlj"/>
+                <constraint firstItem="KvK-jV-cji" firstAttribute="leading" secondItem="Sgx-D7-zMW" secondAttribute="trailing" constant="20" id="npe-Oh-6I3"/>
+                <constraint firstItem="KvK-jV-cji" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="vxd-OI-38I"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lblOffer" destination="Qfl-He-P27" id="DDO-zV-olL"/>
+                <outlet property="lblSubject" destination="dso-Rn-3CK" id="pNM-Of-eSI"/>
+                <outlet property="lblUser" destination="Sgx-D7-zMW" id="RUo-2T-1wI"/>
+            </connections>
+            <point key="canvasLocation" x="75.5" y="231"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="blueCircle" width="80" height="80"/>
+    </resources>
+</document>
